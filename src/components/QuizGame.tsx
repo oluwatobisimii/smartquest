@@ -126,7 +126,6 @@ const QuizGame: React.FC = () => {
     setPlayerName("");
   };
 
-
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
@@ -137,8 +136,8 @@ const QuizGame: React.FC = () => {
 
   if (error && questions.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center p-4">
-        <div className="bg-white rounded-lg p-8 max-w-md text-center">
+      <div className="min-h-screen  flex items-center justify-center p-4 relative">
+        <div className="bg-white rounded-lg p-8 max-w-md text-center z-10">
           <h2 className="text-2xl font-bold text-red-600 mb-4">Error</h2>
           <p className="text-gray-700 mb-4">{error}</p>
           <button

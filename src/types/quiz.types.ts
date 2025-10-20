@@ -7,6 +7,7 @@ export interface Question {
   category: string;
 }
 
+
 export interface LeaderboardEntry {
   name: string;
   score: number;

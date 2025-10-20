@@ -1,11 +1,11 @@
-# Quiz Master 🎯
+# SmartQuest 🎯
 
 A dynamic, interactive quiz game built with React, TypeScript, and Vite.
 
 ## Features
 - Dynamic question loading
 - Real-time timer
-- Score tracking with bonuses
+- Score tracking
 - Persistent leaderboard
 - Responsive design
 
