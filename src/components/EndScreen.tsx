@@ -1,5 +1,3 @@
-// src/components/EndScreen.tsx
-
 import { ArrowsClockwiseIcon, TrophyIcon } from "@phosphor-icons/react";
 import LeaderboardPreview from "./LeaderboardPreview";
 
@@ -12,7 +10,7 @@ interface Props {
 
 const EndScreen = ({ playerName, score, leaderboard, onPlayAgain }: Props) => {
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center">
+    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center h-[80dvh] overflow-auto">
       <TrophyIcon className="w-24 h-24 text-yellow-500 mx-auto mb-6" />
       <h2 className="text-4xl font-bold text-gray-800 mb-4">Quiz Complete!</h2>
       <p className="text-2xl text-gray-600 mb-2">Well done, {playerName}!</p>

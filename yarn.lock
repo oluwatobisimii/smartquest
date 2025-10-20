@@ -773,6 +773,11 @@
   dependencies:
     csstype "^3.0.2"
 
+"@types/toastify-js@^1.12.4":
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/@types/toastify-js/-/toastify-js-1.12.4.tgz#0d4640452282e1a8dcc4db09d659502ee8460366"
+  integrity sha512-zfZHU4tKffPCnZRe7pjv/eFKzTVHozKewFCKaCjZ4gFinKgJRz/t0bkZiMCXJxPhv/ZoeDGNOeRD09R0kQZ/nw==
+
 "@typescript-eslint/eslint-plugin@8.46.1":
   version "8.46.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.46.1.tgz#20876354024140aabc8b400bc95735fdcade17d5"
@@ -1793,6 +1798,11 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+toastify-js@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/toastify-js/-/toastify-js-1.12.0.tgz#cc1c4f5c7e7380e854e20bedceb51980ea29f64d"
+  integrity sha512-HeMHCO9yLPvP9k0apGSdPUWrUbLnxUKNFzgUoZp1PHCLploIX/4DSQ7V8H25ef+h4iO9n0he7ImfcndnN6nDrQ==
 
 ts-api-utils@^2.1.0:
   version "2.1.0"
