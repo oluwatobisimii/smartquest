@@ -1,5 +1,3 @@
-// src/components/PlayingScreen.tsx
-
 import { AlarmIcon, TrophyIcon } from "@phosphor-icons/react";
 import type { Question } from "../types/quiz.types";
 
